@@ -1,0 +1,264 @@
+/*.wrapper {*/
+/*    padding: 0;*/
+/*}*/
+
+.sec-features {
+    width: 100%;
+}
+
+.sec-features .row:nth-of-type(n+2) {
+    margin-top: 160px;
+}
+
+.sec-features .row:last-of-type {
+    margin-bottom: 160px;
+}
+
+
+.feature-icon {
+    max-width: 150px;
+}
+
+
+.sec-testimonials .carousel-control-prev, .sec-testimonials .carousel-control-next {
+    color: black;
+}
+
+
+.sec-testimonials .carousel-indicators {
+    bottom: -30px;
+}
+
+.sec-testimonials .carousel-indicators li {
+    background: rgba(33, 33, 33, .1);
+}
+
+.sec-testimonials .carousel-indicators li:focus,
+.sec-testimonials .carousel-indicators li:hover {
+    background: rgba(33, 33, 33, .5);
+}
+
+
+.sec-testimonials .carousel-indicators .active {
+    background: rgba(33, 33, 33, .75);
+}
+
+.sec-testimonials .carousel-control-next,
+.sec-testimonials .carousel-control-prev {
+    color: #212121;
+}
+
+.sec-testimonials .carousel-control-next:focus, .sec-testimonials .carousel-control-prev:focus,
+.sec-testimonials .carousel-control-next:hover, .sec-testimonials .carousel-control-next:hover {
+    color: #111;
+}
+
+
+/*----------LOGIN PAGE-------------- */
+.login-card-img-left {
+    width: 45%;
+    /* Link to your background image using in the property below! */
+    background: scroll center url("../images/site_images/login-background.jpg");
+    background-size: cover;
+}
+
+
+/*----------Register /Login PAGE-------------- */
+
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+}
+
+/*body {*/
+/*    background: url("../images/site_images/reg_bg.jpg") no-repeat;*/
+/*}*/
+
+.card-signin {
+    border: 0;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.card-signin .card-img-left {
+    width: 45%;
+    /* Link to your background image using in the property below! */
+    background: scroll center url("../images/site_images/register-backgroung.jpg");
+    background-size: cover;
+}
+
+.card-signin .card-body {
+    padding: 2rem;
+}
+
+.form-signin {
+    width: 100%;
+}
+
+.form-signin .btn {
+    font-size: 80%;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-label-group input {
+    height: auto;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::placeholder {
+    color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+}
+
+.preview-img-container {
+    position: relative;
+    width: 50%;
+}
+
+.preview-img-container img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.preview-img-container .preview-btn {
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 0px 9px;
+    border: none;
+    cursor: pointer;
+    border-radius: 38px;
+}
+
+
+/* View Profile Page CSS */
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.btnPremium, .btnPremium:hover {
+    color: #fff;
+}
+
+
+.card-container {
+    width: 18rem;
+    height: 100%;
+    max-height: 100%;
+}
+
+.card-container .bio-desc-container {
+    height: 70px;
+    overflow: auto;
+}
+
+/* Edit Profile Page CSS */
+
+#leftPanel {
+    background-color: #0079ac;
+    color: #fff;
+    text-align: center;
+}
+
+#rightPanel {
+    min-height: 415px;
+}
+
+.colorgraph {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+}
+
+.container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+}
